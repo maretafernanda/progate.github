@@ -144,7 +144,7 @@ header {
 
 .lesson {
   float: left;
-  width: 25%;
+  width: 20%;
 }
 
 .lesson-icon {
@@ -156,6 +156,29 @@ header {
   top: 44%;
   width: 100%;
   color: white;
+}
+
+.lesson-icon p {
+    /* position: absolute; */
+    top: 130px;
+    width: 100%;
+    color: black;
+    font-weight: bold;
+}
+
+.lesson-icon span {
+    /* position: absolute; */
+    top: 130px;
+    width: 100%;
+    color: black;
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
 }
 
 .text-contents {
